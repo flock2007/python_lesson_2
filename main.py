@@ -1,6 +1,9 @@
 import requests
 import json
-url='https://cbr-xml-daily.ru/daily.json.js'
+url= "https://www.cbr-xml-daily.ru/daily_json.js"
 response = requests.get(url)
-data = json.loads(response.text)
+
+data=json.loads(response.text)
+
 print(data)
+result = (data['Valute']['USD']['Value'])
