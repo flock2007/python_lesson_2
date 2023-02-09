@@ -156,18 +156,18 @@
 Задача 10
 Найти количество цифр 5 в числе
 '''
-try:
-    number = abs(int(input('введите число: '))) #переводим  число, берем модуль
-    number=str(number) #возвращаем в строку
-    dln = len(number) #ищем длину строки
-    i=0
-    quantity_5=0
-    for i in range(0,dln):
-        cifra = int(number[dln-i-1:dln-i]) # перебираем все цыфры с конца
-
-        if cifra == 5:
-            quantity_5 += 1
-    print('Всего цифр в числе :', dln)
-    print('Из них пятерок: ', quantity_5)
-except ValueError:
-    print('вводить можно только числа!')
+# try:
+#     number = abs(int(input('введите число: '))) #переводим  число, берем модуль
+#     number=str(number) #возвращаем в строку
+#     dln = len(number) #ищем длину строки
+#     i=0
+#     quantity_5=0
+#     for i in range(0,dln):
+#         cifra = int(number[dln-i-1:dln-i]) # перебираем все цыфры с конца
+#
+#         if cifra == 5:
+#             quantity_5 += 1
+#     print('Всего цифр в числе :', dln)
+#     print('Из них пятерок: ', quantity_5)
+# except ValueError:
+#     print('вводить можно только числа!')
