@@ -171,3 +171,12 @@
 #     print('Из них пятерок: ', quantity_5)
 # except ValueError:
 #     print('вводить можно только числа!')
+
+'Задание Ultra pro: "Угадай число"'
+Igra = None
+while igra != 'Yes' or igra != 'Y' or igra != 'y' or igra != 'No' or igra != 'N' or igra != 'n':
+    print("Введите просто Yes или No, или хотя бы Y или N")
+    igra = input('Давайте сыграем в игру: Вы загадываете число, а я его отгадываю?  Yes/No: ')
+if igra == 'No' or igra == 'N' or igra == 'n'
+
+
